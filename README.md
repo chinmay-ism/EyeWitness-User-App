@@ -1,7 +1,7 @@
 
 # EyeWitness User App
 
-This App is built to provide a platform to report crime **anonymously**. The report directly goes to **nearest** policeman/station.
+This App is built to provide a platform for reporting crime **anonymously**. The report directly goes to **nearest** policeman/station.
 No information of the user(eye witness) is stored in any of the database. App provides a hassle free three click reporting. UI is made super simple to help all the users. The app uses **Google Maps** API and **Firebase** for smooth functioning. Libraries like **CameraX** and google's **GPS** has been used in the project.
 
 The user(eye witness) needs to click an image of the crime location, his location will be recorded while he clicks the picture, all data will be sent to nearest policeman/station for quickest action.
