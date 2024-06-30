@@ -2,25 +2,32 @@
 # EyeWitness User App
 
 This App is built to provide a platform to report crime **anonymously**. The report directly goes to **nearest** policeman/station.
-No information of the user(eye witness) is stored in any of the database. App provides a hassle free three click reporting. UI is made super simple to help all the users. The app uses **Google Maps** API and **Firebase** for smooth functioning.
+No information of the user(eye witness) is stored in any of the database. App provides a hassle free three click reporting. UI is made super simple to help all the users. The app uses **Google Maps** API and **Firebase** for smooth functioning. Libraries like **CameraX** and google's **GPS** has been used in the project.
+
+The user(eye witness) needs to click an image of the crime location, his location while he clicks the picture, all data will be sent to nearest policeman/station for quickest action.
 
 The whole project contains 4 levels : 
 
-- User level
-- Task Force level
-- Supervision level
-- Head level
+- **User level** -> Eye Witness and the reporter
+- **Task Force level** -> Nearest Policeman/station
+- **Supervision level** -> SP and IPS
+- **Head level** -> DGP
 
 Every level has a seperate app of its own. All the apps are connected through a **central database**.
 
 ## Problems Solved
 
--  
-
+- This project will help in eliminating the hesitation in reporting crime due to fear of getting indulged in investigation.
+- Reduce the time and hassle to report a crime.
+- Bypass corruption as everything will be directly supervised by the top most level of state police. 
+- Increase in awareness of society.
+- Decrease in crime rate.
 
 ## Screenshots
 
-![System flow diagram](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![EyeWitnessApp_flow drawio](https://github.com/chinmay-ism/EyeWitness-User-App/assets/109152131/cdf6ed38-b118-459e-9aa6-92f448a83004)
+
+![EyeWitnessUserFigma](https://github.com/chinmay-ism/EyeWitness-User-App/assets/109152131/a3fc67e5-d1ed-4f49-9d15-16ccc8f59d5e)
 
 
 ## Features
