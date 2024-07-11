@@ -26,8 +26,7 @@ Every level has a seperate app of its own. All the apps are connected through a 
 ## Screenshots
 
 ![EyeWitnessApp_flow drawio](https://github.com/chinmay-ism/EyeWitness-User-App/assets/109152131/cdf6ed38-b118-459e-9aa6-92f448a83004)
-
-![EyeWitnessUserFigma](https://github.com/chinmay-ism/EyeWitness-User-App/assets/109152131/a3fc67e5-d1ed-4f49-9d15-16ccc8f59d5e)
+![EyeWitnessUi](https://github.com/user-attachments/assets/86fecac4-9d3c-4436-9b1c-abbe7d203031)
 
 
 ## Features
