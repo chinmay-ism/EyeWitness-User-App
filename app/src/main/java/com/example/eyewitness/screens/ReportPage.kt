@@ -43,11 +43,15 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.eyewitness.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ReportPage() {
+fun ReportPage(
+    modifier: Modifier,
+    navController: NavController
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -181,7 +185,7 @@ fun ReportPage() {
                     .fillMaxWidth(0.8f)
 
                     .clip(RoundedCornerShape(10.dp))
-                    .background(Color(0xFF221E68))
+                    .background(Color(0xFF7ADFAA))
 
                     .clickable { openDialog.value = true }
             ) {
@@ -192,7 +196,7 @@ fun ReportPage() {
                 ) {
                     Text(
                         text = "Report",
-                        color = Color.White,
+                        color = Color(0xFF009349),
                         fontStyle = FontStyle.Italic,
                         fontSize = 16.sp,
                         modifier = Modifier.padding(12.dp),
@@ -200,7 +204,7 @@ fun ReportPage() {
                     )
                     Icon(
                         imageVector = Icons.Filled.PlayArrow, contentDescription = null,
-                        tint = Color.White,
+                        tint = Color(0xFF009349),
                         modifier = Modifier.padding(8.dp)
                     )
                 }
@@ -249,7 +253,7 @@ fun FinalSubmitDialog(
                     .fillMaxWidth()
 
                     .clip(RoundedCornerShape(10.dp))
-                    .background(Color(0xFF221E68))
+                    .background(Color(0xFF7ADFAA))
 
                     .clickable { }
             ) {
@@ -260,27 +264,21 @@ fun FinalSubmitDialog(
                 ) {
                     Text(
                         text = "Send",
-                        color = Color.White,
+                        color = Color(0xFF009349),
                         fontStyle = FontStyle.Italic,
                         fontSize = 16.sp,
                         modifier = Modifier.padding(12.dp),
-                        fontWeight = FontWeight.SemiBold
+                        fontWeight = FontWeight.Bold
                     )
                     Icon(
                         imageVector = Icons.Filled.PlayArrow, contentDescription = null,
-                        tint = Color.White,
+                        tint = Color(0xFF009349),
                         modifier = Modifier.padding(8.dp)
                     )
                 }
             }
         },
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ReportPagePreview() {
-    ReportPage()
 }
 
 @Preview

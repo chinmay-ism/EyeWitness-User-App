@@ -33,9 +33,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.navigation.NavController
 
 @Composable
 fun CameraScreen(
+    navController: NavController,
     controller: LifecycleCameraController,
     modifier: Modifier = Modifier
 ) {
@@ -115,7 +117,7 @@ fun CameraScreen(
                         .clip(RoundedCornerShape(10.dp))
                         .background(Color(0xFF221E68))
 
-                        .clickable { }
+                        .clickable { navController.navigate("report") }
                 ) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),

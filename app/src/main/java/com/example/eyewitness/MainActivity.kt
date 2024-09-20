@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                     }
                 }
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    CameraScreen(controller = controller, modifier = Modifier.padding(innerPadding))
+                    MyAppNavigation(modifier = Modifier.padding(innerPadding), controller = controller)
                 }
             }
         }
@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
     companion object {
         private val CAMERAX_PERMISSIONS = arrayOf(
             Manifest.permission.CAMERA,
-            Manifest.permission.RECORD_AUDIO,
+            Manifest.permission.RECORD_AUDIO
         )
     }
 }
